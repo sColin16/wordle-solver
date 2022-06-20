@@ -26,4 +26,8 @@ number of words remaining (or lowest max number of words remaining)
 The current approach only searches at a depth of one, considering only the next
 word. Ideally, the search would be complete, determining the expected number of
 guesses that would be needed for each word that could be guessed. This is more
-complicated and probably only offers a marginal improvement in practice
+complicated and probably only offers a marginal improvement in practice.
+
+Alternatively, the current algorithm could be used to make a coach that rates
+the strength of guesses and offers suggestions for better or alternative
+guesses to help improve play.
